@@ -1,0 +1,51 @@
+src - source
+
+index.js - It links app component with index.html
+
+component - app : components are independent and reusable bits of code. The serve the same purpose as javascript functions,but work in isolation and return HTML. Components come in two types,class components and function components.
+
+app.js - consist of html and javascript source code of a portion of a page.
+
+app.css - Css source code of a component 
+
+1.class component
+2.function component
+
+Function componentn: React functional components are just normal javascript functions; we can create them using specific funtion keywords. most developers create functional components using the Arrow function. The functional component's primary purpose is to render the view and the data to the browser.
+
+    syntax:
+        function ComponentName(){
+              js source code...  
+            return (
+                html source code...
+            )
+        }
+
+        export defalut compoonentname; - Exporting the Component
+
+        import componentname from 'relative path'- Importing the component in current file
+
+        (
+            -HTML
+        )
+
+        {
+            -js variables/functions/logic
+        }
+
+for including css for a component:
+    app.css
+    reference{
+        property:valaue;
+        property:value;
+    }
+
+    app.js
+
+    import 'relativepathofcssfile'
+
+for including images in component
+
+    import imagename from 'relativepath';
+
+    import src = {imageName}/>
